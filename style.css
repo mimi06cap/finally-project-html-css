@@ -1,0 +1,240 @@
+ html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(135deg, #008db4, #0072ff);
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #ffff6b;
+    }
+
+    .blue-block {
+      background: linear-gradient(135deg, #008db4, #0072ff);
+      height: 470px;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      padding-top: 120px;
+    }
+
+    .blue-text {
+      color: #eaff47;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .blue-min-text {
+      color: white;
+      font-size: 18px;
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .main-btn {
+      display: inline-block;
+      margin-top: 40px;
+      background-color: white;
+      color: #0072ff;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .main-btn:hover {
+      background-color: #eaff47;
+      transform: scale(1.05);
+    }
+
+    .section {
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .program-language {
+      color: black;
+      margin-bottom: 40px;
+    }
+
+    .languages {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .lang {
+      width: 180px;
+      height: 140px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease;
+      padding: 10px;
+    }
+
+    .lang:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+    }
+
+    .lang h3 {
+      margin: 10px 0 5px;
+    }
+
+    .lang p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .grey-block {
+      background-color: rgb(210, 244, 255);
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .portfolio {
+      margin-bottom: 40px;
+      font-size: 32px;
+      color: black;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .projects img {
+      width: 600px;
+      height: 380px;
+      border-radius: 25px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+      object-fit: cover;
+    }
+
+    .projects img:hover {
+      transform: translateY(-10px);
+    }
+
+    .contact-form {
+      background: white;
+      width: 400px;
+      height: 480px;
+      margin: 80px auto; /* форманы экранның ортасына қояды */
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      padding: 40px;
+      position: relative; /* absolute алып тасталды */
+      left: 0px; /* оңға жылжуды тоқтатады */
+      transform: translateX(0);
+    }
+
+
+    .contact-form h2 {
+      text-align: center;
+      color: #000;
+      margin-bottom:25px;
+      font-size: 28px;
+    }
+
+    label {
+      display: block;
+      color: #000;
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #90caf9;
+      border-radius: 6px;
+      outline: none;
+      margin-bottom: 18px;
+      font-size: 15px;
+      transition: border-color 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #1976d2;
+      box-shadow: 0 0 6px rgba(25, 118, 210, 0.3);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      width: 100%;
+      background: #2196f3;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background: #1976d2;
+      transform: scale(1.03);
+    }
+
+    .sot-set {
+      color: #1976d2;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      padding-bottom: 50px;
+      position: absolute;
+      top: 2250px;
+      left: 540px;
+    }
+
+    .forma{
+      position: absolute;
+      left: 20px;
+      width: 410px;
+    }
+    
+    .block-zh{
+      position: absolute;
+      left: 20px;
+      width: 400px;
+    }
